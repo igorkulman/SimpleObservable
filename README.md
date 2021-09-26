@@ -34,9 +34,9 @@ viewModel.isLoading.bind(to: userDetailsView, keyPath: \.isHidden)
 
 ## Publisher
 
-`Publisher` is an observable without an initial value. An  `Observable` is used for storing state, a `Publisher` us used for events.
+`Publisher` is an observable without an initial value. An `Observable` is used for storing state, a `Publisher` is used for events.
 
-Create a `Publisher` instance
+After you create a `Publisher` instance
 
 ```swift
 let onError = Publisher<Error>()
