@@ -1,5 +1,11 @@
 # Simple observable
 
+![CI](https://github.com/igorkulman/SimpleObservable/workflows/CI/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
+[![Swift Version](https://img.shields.io/badge/Swift-5-F16D39.svg?style=flat)](https://developer.apple.com/swift)
+[![Twitter](https://img.shields.io/badge/twitter-@igorkulman-blue.svg)](http://twitter.com/igorkulman)
+
 Very simple `Observable` and `Publisher` implementation for iOS apps. 
 
 Useful if you want to use a bit of simple reactive programming but do not want to add the full `RxSwift` or use `Combine`.
