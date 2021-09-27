@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 
 // MARK: - Observable
 
@@ -60,6 +62,8 @@ extension Publisher where T == Void {
     }
 }
 
+#if canImport(UIKit)
+
 // MARK: - ObservableButton
 
 public class ObservableButton: UIButton {
@@ -87,6 +91,8 @@ public class ObservableButton: UIButton {
         observable.tap.publish()
     }
 }
+
+#endif
 
 func executeOnMainThread(closure: @escaping () -> Void) {
     if Thread.isMainThread {
